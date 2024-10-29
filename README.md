@@ -1,1 +1,4 @@
 # Brainrot-RPG
+
+***
+Dosłownie brainrot
