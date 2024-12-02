@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="gieratop"
-run/main_scene="res://tilemapa/murzyn.tscn"
+run/main_scene="res://assets/tilemapa/tilemapa.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 

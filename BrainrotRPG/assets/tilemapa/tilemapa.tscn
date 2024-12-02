@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cp6lfi2wdxh54"]
 
-[ext_resource type="Texture2D" uid="uid://by7mjrn87yg5v" path="res://tilemapa/tailmapa.png" id="1_014vi"]
+[ext_resource type="Texture2D" uid="uid://by7mjrn87yg5v" path="res://assets/tilemapa/tailmapa.png" id="1_014vi"]
 [ext_resource type="PackedScene" uid="uid://c3yiqeyd12g7p" path="res://character_body_2d.tscn" id="2_sqasv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ht3rw"]
@@ -89,3 +89,8 @@ layer_2/tile_data = PackedInt32Array(-6, 393216, 5, -5, 458752, 5, -65542, 39321
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_sqasv")]
 y_sort_enabled = true
 position = Vector2(7, -201)
+
+[node name="wrog" parent="." instance=ExtResource("2_sqasv")]
+y_sort_enabled = true
+position = Vector2(162, -201)
+script = null
