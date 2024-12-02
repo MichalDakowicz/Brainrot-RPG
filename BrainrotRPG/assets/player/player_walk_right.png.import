@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://by7mjrn87yg5v"
-path="res://.godot/imported/tailmapa.png-9c7c7cc8d955d94ee8e52e950ad24036.ctex"
+uid="uid://dxqlenyoj0o7l"
+path="res://.godot/imported/player_walk_right.png-0b1444b6dea5be11ccdab48b5277835a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tilemapa/tailmapa.png"
-dest_files=["res://.godot/imported/tailmapa.png-9c7c7cc8d955d94ee8e52e950ad24036.ctex"]
+source_file="res://assets/player/player_walk_right.png"
+dest_files=["res://.godot/imported/player_walk_right.png-0b1444b6dea5be11ccdab48b5277835a.ctex"]
 
 [params]
 
