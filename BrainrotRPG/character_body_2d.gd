@@ -1,12 +1,12 @@
 extends CharacterBody2D
 
 var SPEED = 100.0
-var last_direction = "down"  # Domyślny kierunek bezczynności
+var last_direction = "back"  # Domyślny kierunek bezczynności
 
 @onready var sprite = $AnimatedSprite2D
 
 func _ready():
-	sprite.play("idle_down")  # Domyślna animacja bezczynności
+	sprite.play("front")  # Domyślna animacja bezczynności
 
 func _physics_process(delta):
 	velocity = Vector2()
@@ -40,6 +40,3 @@ func _physics_process(delta):
 
 	# Poruszanie postaci
 	move_and_slide()
-	for i in range(get_slide_collision_count()):
-		var collision = get_slide_collision(i)
-		print("I collided with ", collision.get_collider().name)
