@@ -92,4 +92,4 @@ y_sort_enabled = true
 position = Vector2(-159, -218)
 
 [node name="Wrog" parent="." instance=ExtResource("3_xsrgg")]
-position = Vector2(-209, -59)
+position = Vector2(-208, -59)
