@@ -1,10 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://dvhagsfpnwbc0"]
+[gd_scene load_steps=5 format=3 uid="uid://dvhagsfpnwbc0"]
 
 [ext_resource type="Texture2D" uid="uid://djvm45hpppql" path="res://assets/drogi/fightscene.png" id="1_x4f38"]
+[ext_resource type="Texture2D" uid="uid://bd4h6wpnl1mdy" path="res://assets/enemies/skibid.png" id="2_bwvi1"]
+[ext_resource type="Texture2D" uid="uid://nx7lxtnctds6" path="res://assets/player/player_back.png" id="3_vxadx"]
+[ext_resource type="Texture2D" uid="uid://c4w31fqvm167c" path="res://assets/hud/menu.jpg" id="4_ap7ku"]
 
 [node name="Walka" type="Node2D"]
 
 [node name="Fightscene" type="Sprite2D" parent="."]
-position = Vector2(584, 324)
-scale = Vector2(0.89375, 0.905556)
+position = Vector2(967, 542)
+scale = Vector2(1.51406, 1.51111)
 texture = ExtResource("1_x4f38")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1439, 423)
+scale = Vector2(2.40625, 2.21875)
+texture = ExtResource("2_bwvi1")
+
+[node name="PlayerBack" type="Sprite2D" parent="."]
+position = Vector2(305, 806)
+scale = Vector2(10.8125, 10.6094)
+texture = ExtResource("3_vxadx")
+
+[node name="Menu" type="Sprite2D" parent="."]
+position = Vector2(1425.75, 903)
+scale = Vector2(1.60234, 1.4375)
+texture = ExtResource("4_ap7ku")
